@@ -11,12 +11,6 @@ function fib(num) {
 	}
 }
 
-/* recursive
-						fib (5)
-					fib(4) + fib(3)
-		fib(3) + fib(2)		fib(2) + fib()
-fib(2) + fib(1)				
-*/
 
 function fibR(n) {
 	if (n <= 2) {

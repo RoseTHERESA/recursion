@@ -1,5 +1,4 @@
 //iterative
-
 function fib(num) {
 	var fibNum = 1;
 	var prev = 1;
@@ -11,7 +10,7 @@ function fib(num) {
 	}
 }
 
-
+//recursive
 function fibR(n) {
 	if (n <= 2) {
 		return 1;
